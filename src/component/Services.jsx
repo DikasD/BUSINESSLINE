@@ -8,14 +8,14 @@ function Services() {
       <div className="bg-cover">
         <div className="text-center text-light">
 
-          <h1 className='pt-5'>Services</h1>
+          <h1 className='pt-5' data-aos="fade-down">Services</h1>
           <p> Home <i className='fa fa-arrow-right ms-3 me-3'></i> Service</p>
         </div>
       </div>
       <div className="container mt-5">
         <Card2/>
         <div className="row">
-          <div className="col-md-6" data-aos="fade=up">
+          <div className="col-md-6" data-aos="fade-up">
             <img src={Service} alt="" className='img-fluid' />
 
           </div>
